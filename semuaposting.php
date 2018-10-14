@@ -26,8 +26,7 @@ $post= posting();
         foreach ($post as $v) {
             # code...
             echo "<tr><td rowspan='3'><b>$v[Judul]<b><br>
-          <a href='editposting.php?id=".$v['id_pict']."'><img src='$v[gambar]'height='240' width='240'></img>
-          </a></td></tr><tr><td>Diposting oleh : $v[nama]<br>Tanggal : <br>$v[tanggal]</td></tr>";
+         <img src='$v[gambar]'height='240' width='240'></img></td></tr><tr><td>Diposting oleh : $v[nama]<br>Tanggal : <br>$v[tanggal]</td></tr>";
             echo "<tr><td>Caption :<br>$v[caption]</td></tr>";
             
 

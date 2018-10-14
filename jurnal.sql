@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 14, 2018 at 03:47 PM
+-- Generation Time: Oct 14, 2018 at 05:32 PM
 -- Server version: 10.1.35-MariaDB
 -- PHP Version: 7.2.9
 
@@ -42,10 +42,11 @@ CREATE TABLE `post` (
 --
 
 INSERT INTO `post` (`id_pict`, `Judul`, `caption`, `gambar`, `tanggal`, `nim`) VALUES
-(15, 'Apa Ini', 'Ini adalah ss Whatsap tentang hal yang saya ga tau sendiri', 'img/Capture1.PNG', '2018-10-14', '6701174082'),
 (16, 'Tiny Touch', 'Tiny touch Tiny touch Tiny touch Tiny touch Tiny touch Tiny touch Tiny touch Tiny touch Tiny touch Tiny touch Tiny touch Tiny touch ', 'img/IMG_20180524_015554.jpg', '2018-10-14', '140117432'),
-(17, 'Wayang Golek', 'Wayang Golek suka begoek golek auwwww', 'img/IMG_20161115_182928.jpg', '2018-10-14', '6701174082'),
-(18, 'nyaaaam', 'nyaaaamnyaaaamnyaaaamnyaaaamnyaaaamnyaaaamnyaaaamnyaaaamnyaaaamnyaaaamnyaaaam', 'img/1490089973030.jpg', '2018-10-14', '140117432');
+(17, 'Wayang Golek', 'Wayang Golek suka begoek golek auwwww Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona ', 'img/IMG_20161115_182928.jpg', '2018-10-14', '6701174082'),
+(18, 'nyaaaam', 'nyaaaamnyaaaamnyaaaamnyaaaamnyaaaamnyaaaamnyaaaamnyaaaamnyaaaamnyaaaamnyaaaam', 'img/1490089973030.jpg', '2018-10-14', '140117432'),
+(22, 'Jokowi', 'Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi Jokowi ', 'img/1490371051839.jpg', '2018-10-14', '6701174082'),
+(23, 'Ireonacu', 'Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona Ireona ', 'img/IMG_20180524_015554.jpg', '2018-10-14', '6701174082');
 
 -- --------------------------------------------------------
 
@@ -96,7 +97,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `post`
 --
 ALTER TABLE `post`
-  MODIFY `id_pict` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id_pict` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- Constraints for dumped tables

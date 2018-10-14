@@ -14,14 +14,17 @@ $capt = $_POST['caption'];
 $judul = $_POST['Judul'];
 $date=date('Y-m-d');
 
-    if(strlen(trim($capt))<30){
-    $cek[1]="<mark>Caption minimal 30 karakter</mark>";
+if(str_word_count($capt)<30){
+    $cek[1]="<mark>Caption minimal 30 kata</mark>";
     }
     else{        
         editPost($capt,$date,$_GET['id'],$judul,$_SESSION['nim']);
         header('location:halamanawal.php');
     }
-
+}
+if(isset($_POST['hapus'])){
+    hapus($_GET['id'],$_SESSION['nim']);
+    header('location:halamanawal.php');
 }
 
 ?>

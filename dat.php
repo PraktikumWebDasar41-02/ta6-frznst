@@ -125,6 +125,11 @@ function posting()
     }
     return $data;
 }
+function hapus($id_pict,$nim)
+{
+    Global $conn;
+    $query=mysqli_query($conn,"DELETE FROM post WHERE id_pict = '$id_pict' AND nim='$nim' ");
+}
 
 
 

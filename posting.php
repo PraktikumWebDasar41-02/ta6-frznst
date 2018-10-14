@@ -12,13 +12,13 @@ $judul = $_POST['Judul'];
 $path="img/".basename($_FILES['img']['name']);
 $date=date('Y-m-d');
 
-    if(strlen(trim($capt))<30){
-    $cek[1]="<mark>Caption minimal 30 karakter</mark>";
+    if(str_word_count($capt)<30){
+    $cek[1]="<mark>Caption minimal 30 kata</mark>";
     }
     if($path =="img/"){
         $cek[2]="<mark>Masukan gambar</mark>";
         }
-    else{        
+    else {        
         upload($capt,$path,$date,$_SESSION['nim'],$judul);
         header('location:halamanawal.php');
     }
